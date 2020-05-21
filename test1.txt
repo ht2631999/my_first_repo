@@ -1,1 +1,2 @@
-
+Hello, Lets start using git 
+today is Thrusday
