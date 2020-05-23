@@ -4,6 +4,6 @@ readme.md:
 	echo "# Guessing Game">>readme.md
 	echo " "
 	date +%c >> readme.md
-	echo " "
+	echo " ">>readme.md
 	wc -l guessinggame.sh >> readme.md
 
