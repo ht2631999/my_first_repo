@@ -1,7 +1,10 @@
-#just started
+#creating readme.md file using makefile
 make readme.md
 echo "readme.md created"
 echo ""
+
+
+#function for comparing user input value to no. of directory content
 function readin {
 
 	n=$(ls|wc -l)
@@ -16,12 +19,13 @@ function readin {
 	fi
 }
 
+
+# loop for getting user input until correct guess
 while [[ op -ne 1 ]]
 do
 	echo "please guess the number of files in directory"
 	read inp
 	op=$(readin $inp)
-#	echo $op
 	if [[ op -eq 1 ]]
 	then
 		echo "Congratulations, your guess is correct"
@@ -33,6 +37,6 @@ do
 	fi
 done
 
-rm readme.md	
 
 
+#THANK YOU
