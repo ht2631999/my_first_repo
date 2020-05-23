@@ -4,9 +4,9 @@ echo ""
 
 
 #function for comparing user input value to no. of directory content
+n=$(ls|wc -l)
 function readin {
 
-	n=$(ls|wc -l)
 	if [[ $1 -eq $n ]]
 	then
 		echo 1
