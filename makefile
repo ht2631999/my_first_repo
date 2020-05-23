@@ -1,9 +1,9 @@
 
-readme.md:
-	touch readme.md
-	echo "# Guessing Game">>readme.md
-	echo " ">> readme.md
-	date +%c >> readme.md
-	echo " " >> readme.md
-	wc -l guessinggame.sh >> readme.md
+README.md:
+	touch README.md
+	echo "# Guessing Game">>README.md
+	echo " ">>README.md
+	date +%c >> README.md
+	echo " " >> README.md
+	wc -l guessinggame.sh >> README.md
 
