@@ -1,5 +1,4 @@
 #creating readme.md file using makefil
-make readme.md
 echo "readme.md created"
 echo ""
 
